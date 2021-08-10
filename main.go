@@ -27,6 +27,8 @@ var data5 string = "john"
 
 //define function without return type
 func main() {
+	//hellowordl function
+	helloWorld()
 	//learning methods and expressions
 	fmt.Println(getMessage())
 	//control structures
@@ -39,6 +41,10 @@ func main() {
 	printArray()
 	printSlice()
 
+}
+
+func helloWorld() {
+	fmt.Println("hello world")
 }
 
 //function with return type
