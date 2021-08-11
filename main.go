@@ -26,7 +26,7 @@ var data4 float32
 var data5 string = "john"
 
 //define function without return type
-func main() {
+func main1() {
 	//hellowordl function
 	helloWorld()
 	//learning methods and expressions
