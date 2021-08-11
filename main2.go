@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main2() {
 	intSlice := []int{9, 3, 6, 1, 2, 7}
 	intSlice1 := []int{10, 3, 5, 1, 2, 7}
 	intSlice2 := []int{0, 3, 9, 1, 2, 7}

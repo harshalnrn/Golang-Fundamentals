@@ -26,11 +26,14 @@ var data4 float32
 var data5 string = "john"
 
 //define function without return type
-func main1() {
+func main() {
 	//hellowordl function
 	helloWorld()
 	//learning methods and expressions
 	fmt.Println(getMessage())
+
+	result, message := getResult1(3, 4)
+	fmt.Println(result, message)
 	//control structures
 	controlLadders()
 	//creation and return size
@@ -61,6 +64,11 @@ func getMessage() string {
 
 func getResult(a int, b int) int {
 	return a + b
+}
+
+//function returning multiple values
+func getResult1(a int, b int) (int, string) {
+	return a + b, "add result"
 }
 
 //do evaluation examples, where dealing with 'expressions' involving values of multiple data types.
