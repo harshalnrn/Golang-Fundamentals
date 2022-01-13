@@ -24,7 +24,7 @@ var data2 bool = true
 var data3 int
 var data4 float32
 var data5 string = "john"
-//data6:="amar" //Syntax error // Only local variables can be initialised with :=
+//data6:="amar" //Syntax error // Only local variables can be initialised with shorthand way using :=
 
 //define function without return type
 func main1() {
