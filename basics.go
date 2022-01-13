@@ -27,7 +27,7 @@ var data5 string = "john"
 //data6:="amar" //Syntax error // Only local variables can be initialised with :=
 
 //define function without return type
-func main() {
+func main1() {
 	//hellowordl function
 	helloWorld()
 	//learning methods and expressions
