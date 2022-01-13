@@ -2,20 +2,22 @@ package main
 
 import "fmt"
 
-func main2() {
+func main() {
 
-	sortedSlice := []int{1, 2, 3, 4, 5, 6}
-
+	//note slice is a reference type , and hence can have value=nil
+	sortedSlice := []int{1, 2, 3, 4, 5, 6,20}
 	startindex := 0
 	lastIndex := len(sortedSlice) - 1
 	searchKey := 20
+	flag:=false
 
 	for startindex <= lastIndex {
 
 		midIndex := (startindex + lastIndex) / 2
 		if sortedSlice[midIndex] == searchKey {
 			//explcitly convert int to string before appending
-			fmt.Println("binary search: key found at index" + fmt.Sprint(midIndex))
+			flag=true
+			fmt.Println("binary search: key found at index: " + fmt.Sprint(midIndex))
 			break
 		} else if sortedSlice[midIndex] > searchKey {
 
@@ -26,6 +28,8 @@ func main2() {
 		}
 	}
 
-	fmt.Println("search key " + fmt.Sprint(searchKey) + "not found in slice")
+	if !flag {
+	fmt.Println("search key " + fmt.Sprint(searchKey) + " not found in slice")
+	}
 
 }

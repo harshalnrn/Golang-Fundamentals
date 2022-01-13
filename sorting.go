@@ -33,6 +33,13 @@ func main2() {
 	fmt.Println("bubble sort result")
 	fmt.Println(intSlice)
 
+
+
+//improve this for best time complexity, where array already sorted.
+
+
+
+
 	//selection
 	//sort array from left to right
 	//single swap per pass
@@ -56,6 +63,12 @@ func main2() {
 
 	fmt.Println("selection sort result")
 	fmt.Println(intSlice1)
+
+
+//improve this for best time complexity, where array already sorted.
+
+
+
 
 	//insertion sort
 
@@ -81,3 +94,5 @@ func main2() {
 	fmt.Println(intSlice2)
 
 }
+
+//improve this for best time complexity, where array already sorted.
