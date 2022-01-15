@@ -3,7 +3,7 @@ import "fmt"
 
 
 //map: list of (K,V) enteries
-func main(){
+func main0(){
 iterateMapEntries(createMaps())
 }
 

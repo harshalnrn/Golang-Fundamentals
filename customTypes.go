@@ -38,7 +38,7 @@ type Greeting func (name string)string         // function type declaration
 
 //-----------------------
 
-func main(){
+func main3(){
 	// initialise struct variables and call implemented methods of interface of respective struct
 	a:=AadharBasedRegisteration{aadharId: "1212121dadada"}
 	l:=LicenseBasedRegisteration{licenseId:"12345"}

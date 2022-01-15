@@ -9,7 +9,7 @@ type person struct{
 	phoneNumber string
 }
 
-func main() {
+func main7() {
 
 p:=person{firstName: "harshal", lastName:"narayan",dob:"23/06/1993",phoneNumber:"91-9887766"}
 updateDetailsWithoutPointers(p) //pass by value

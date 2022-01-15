@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main5() {
 
 	//note slice is a reference type , and hence can have value=nil
 	sortedSlice := []int{1, 2, 3, 4, 5, 6,20}
